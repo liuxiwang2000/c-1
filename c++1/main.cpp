@@ -7,12 +7,13 @@
 //
 
 #include <iostream>
-
+#include "People.h"
+using namespace jikexueyuan;
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    People *p=new People();
+    p->sayHello();
     return 0;
 }
 
